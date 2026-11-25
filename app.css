@@ -1,0 +1,12 @@
+.russian-settings { color: var(--foreground); font-size: 14px; line-height: 1.6; max-width: 48rem; }
+.russian-settings p { margin: 0 0 16px; }
+.russian-settings .russian-lead { font-size: 15px; }
+.russian-status { border: 1px solid var(--border); border-radius: 10px; padding: 16px; margin: 16px 0; background: var(--card); }
+.russian-status dl { display: flex; flex-wrap: wrap; gap: 12px 32px; margin: 12px 0 0; }
+.russian-status dt { color: var(--muted-foreground); font-size: 12px; }
+.russian-status dd { margin: 2px 0 0; font-size: 16px; }
+.russian-refresh { min-height: 44px; padding: 8px 16px; border: 1px solid var(--border); border-radius: 8px; cursor: pointer; background: var(--secondary); color: var(--foreground); }
+.russian-refresh:hover { background: var(--accent); }
+.russian-refresh:focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; }
+.russian-cli { margin-top: 20px !important; color: var(--muted-foreground); }
+.russian-cli code { color: var(--foreground); overflow-wrap: anywhere; }
